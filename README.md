@@ -35,3 +35,7 @@ python2.7编写，使用目前较为流行的UI自动化测试工具Appium，采
 测试报告
 ###
 ![](https://github.com/hanyguoguo/appiumPythonPO/blob/master/img/testreport.png)
+
+4、不足和优化
+-------
+日志和报告部分需要进一步优化；脚本入口目前在case文件中，可封装成启动引擎，从case中分离出来；设备的管理需要进一步优化，如通过无线连接设备。等
