@@ -41,14 +41,16 @@ class LoginHandle:
         '''
         获取tost，根据返回信息进行反数据
         '''
-        tost_element = self.login_page.get_tost_element(message)
-        if tost_element:
-            return True
-        else:
-            return False
+        return self.login_page.find_toast(message)
+        # tost_element = self.login_page.get_tost_element(message)
+        # if tost_element:
+        #     return True
+        # else:
+        #     return False
 
 if __name__=="__main__":
     hl=LoginHandle(0)
     hl.send_username('13051852488')
-    hl.send_password('123456')
+    # hl.send_password('111111')
     hl.click_login()
+    print hl.get_fail_tost('请输入6-8位密码')

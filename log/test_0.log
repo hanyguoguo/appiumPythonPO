@@ -1,0 +1,662 @@
+2018-07-03 09:02:59:794 - info: [Appium] Welcome to Appium v1.6.1
+2018-07-03 09:02:59:801 - info: [Appium] Non-default server args:
+2018-07-03 09:02:59:805 - info: [Appium]   port: 4700
+2018-07-03 09:02:59:806 - info: [Appium]   bootstrapPort: 4900
+2018-07-03 09:02:59:807 - info: [Appium]   sessionOverride: true
+2018-07-03 09:02:59:808 - info: [Appium]   log: 'E:/pyAppium/appiumPythonPO/log/test_0.log'
+2018-07-03 09:02:59:808 - info: [Appium]   udid: 'A3P40FEE3074'
+2018-07-03 09:02:59:808 - info: [Appium]   noReset: true
+2018-07-03 09:02:59:809 - warn: [Appium] Deprecated server args:
+2018-07-03 09:02:59:809 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"A3P40FEE3074"}'
+2018-07-03 09:02:59:809 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2018-07-03 09:02:59:809 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-07-03 09:02:59:810 - info: [Appium]   udid: 'A3P40FEE3074'
+2018-07-03 09:02:59:810 - info: [Appium]   noReset: true
+2018-07-03 09:02:59:844 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4700
+2018-07-03 09:03:21:606 - info: [HTTP] --> POST /wd/hub/session {"requiredCapabilities":{},"desiredCapabilities":{"unicodeKeyboard":"True","platforVersion":"6.0.1","deviceName":"A3P40FEE3074","automationName":"UiAutomator2","appWaitActivity":"hospital.com.mainlib.login.LoginActivity","noReset":"true","resetKeyboard":"True","appPackage":"com.hospital.localtest","platformName":"Android","app":"E:\\pyAppium\\appiumPythonPO\\app-localtest-release.apk"}}
+2018-07-03 09:03:21:608 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"unicodeKeyboard":"True","platforVersion":"6.0.1","deviceName":"A3P40FEE3074","automationName":"UiAutomator2","appWaitActivity":"hospital.com.mainlib.login.LoginActivity","noReset":"true","resetKeyboard":"True","appPackage":"com.hospital.localtest","platformName":"Android","app":"E:\\pyAppium\\appiumPythonPO\\app-localtest-release.apk"},{},null,null,null]
+2018-07-03 09:03:21:610 - info: [Appium] Creating new AndroidUiautomator2Driver session
+2018-07-03 09:03:21:610 - info: [Appium] Capabilities:
+2018-07-03 09:03:21:611 - info: [Appium]   unicodeKeyboard: 'True'
+2018-07-03 09:03:21:611 - info: [Appium]   platforVersion: '6.0.1'
+2018-07-03 09:03:21:611 - info: [Appium]   deviceName: 'A3P40FEE3074'
+2018-07-03 09:03:21:611 - info: [Appium]   automationName: 'UiAutomator2'
+2018-07-03 09:03:21:611 - info: [Appium]   appWaitActivity: 'hospital.com.mainlib.login.LoginActivity'
+2018-07-03 09:03:21:611 - info: [Appium]   noReset: 'true'
+2018-07-03 09:03:21:611 - info: [Appium]   resetKeyboard: 'True'
+2018-07-03 09:03:21:611 - info: [Appium]   appPackage: 'com.hospital.localtest'
+2018-07-03 09:03:21:612 - info: [Appium]   platformName: 'Android'
+2018-07-03 09:03:21:612 - info: [Appium]   app: 'E:\\pyAppium\\appiumPythonPO\\app-localtest-release.apk'
+2018-07-03 09:03:21:612 - info: [Appium]   udid: 'A3P40FEE3074'
+2018-07-03 09:03:21:614 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2018-07-03 09:03:21:614 - warn: [BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+2018-07-03 09:03:21:615 - warn: [BaseDriver] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
+2018-07-03 09:03:21:617 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: platforVersion.
+2018-07-03 09:03:21:618 - info: [BaseDriver] Session created with session id: 70aec609-4f5b-464a-b1de-0d5686300502
+2018-07-03 09:03:21:619 - info: [BaseDriver] Using local app 'E:\pyAppium\appiumPythonPO\app-localtest-release.apk'
+2018-07-03 09:03:21:620 - info: [debug] [UiAutomator2] Checking whether app is actually present
+2018-07-03 09:03:21:620 - info: [UiAutomator2] UIAutomator2 Driver version:0.1.0
+2018-07-03 09:03:21:621 - info: [debug] [AndroidDriver] Getting Java version
+2018-07-03 09:03:21:920 - info: [AndroidDriver] Java version is: 1.8.0_25
+2018-07-03 09:03:21:923 - info: [ADB] Checking whether adb is present
+2018-07-03 09:03:21:929 - info: [ADB] Using adb.exe from E:\android-sdk-windows\platform-tools\adb.exe
+2018-07-03 09:03:21:929 - info: [AndroidDriver] Retrieving device list
+2018-07-03 09:03:21:930 - info: [debug] [ADB] Trying to find a connected android device
+2018-07-03 09:03:21:932 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:03:27:195 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:03:27:198 - info: [AndroidDriver] Using device: A3P40FEE3074
+2018-07-03 09:03:27:200 - info: [ADB] Checking whether adb is present
+2018-07-03 09:03:27:209 - info: [ADB] Using adb.exe from E:\android-sdk-windows\platform-tools\adb.exe
+2018-07-03 09:03:27:211 - info: [debug] [ADB] Setting device id to A3P40FEE3074
+2018-07-03 09:03:27:213 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-07-03 09:03:27:215 - info: [ADB] Checking whether aapt is present
+2018-07-03 09:03:27:220 - info: [ADB] Using aapt.exe from E:\android-sdk-windows\build-tools\android-4.3\aapt.exe
+2018-07-03 09:03:27:221 - info: [ADB] Extracting package and launch activity from manifest
+2018-07-03 09:03:27:590 - info: [debug] [ADB] badging package: com.hospital.localtest
+2018-07-03 09:03:27:591 - info: [debug] [ADB] badging act: hospital.com.mainlib.welcome.WelcomeActivity
+2018-07-03 09:03:27:592 - info: [debug] [AndroidDriver] Parsed package and activity are: com.hospital.localtest/hospital.com.mainlib.welcome.WelcomeActivity
+2018-07-03 09:03:27:594 - info: [ADB] Getting device platform version
+2018-07-03 09:03:27:595 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:03:27:727 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:03:27:735 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","getprop","ro.build.version.release"]
+2018-07-03 09:03:27:891 - info: [debug] [ADB] Attempting to kill all io.appium.uiautomator2.server processes
+2018-07-03 09:03:27:893 - info: [debug] [ADB] Getting all processes with io.appium.uiautomator2.server
+2018-07-03 09:03:27:894 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:03:28:030 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:03:28:032 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","ps"]
+2018-07-03 09:03:28:245 - info: [ADB] No io.appium.uiautomator2.server process found to kill, continuing...
+2018-07-03 09:03:28:249 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","wait-for-device"]
+2018-07-03 09:03:28:387 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:03:28:506 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:03:28:507 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","echo","ping"]
+2018-07-03 09:03:28:667 - info: [debug] [Logcat] Starting logcat capture
+2018-07-03 09:03:28:734 - info: [debug] [AndroidDriver] Enabling Unicode keyboard support
+2018-07-03 09:03:28:734 - info: [debug] [AndroidDriver] Pushing unicode ime to device...
+2018-07-03 09:03:28:735 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","install","C:\\Users\\liuyj\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk"]
+2018-07-03 09:03:29:261 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:03:29:408 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:03:29:409 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","settings","get","secure","default_input_method"]
+2018-07-03 09:03:30:018 - info: [debug] [AndroidDriver] Unsetting previous IME io.appium.android.ime/.UnicodeIME
+2018-07-03 09:03:30:019 - info: [debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+2018-07-03 09:03:30:021 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:03:30:160 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:03:30:161 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","ime","enable","io.appium.android.ime/.UnicodeIME"]
+2018-07-03 09:03:30:759 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:03:30:885 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:03:30:887 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+2018-07-03 09:03:31:485 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-07-03 09:03:31:486 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","install","C:\\Users\\liuyj\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\io.appium.settings\\bin\\settings_apk-debug.apk"]
+2018-07-03 09:03:32:029 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-07-03 09:03:32:030 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","install","C:\\Users\\liuyj\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+2018-07-03 09:03:32:538 - info: [debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2018-07-03 09:03:32:539 - info: [debug] [ADB] Forwarding system: 8200 to device: 6790
+2018-07-03 09:03:32:540 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","forward","tcp:8200","tcp:6790"]
+2018-07-03 09:03:32:683 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:03:32:829 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:03:32:830 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","dumpsys","window"]
+2018-07-03 09:03:33:029 - info: [AndroidDriver] Unlocking screen
+2018-07-03 09:03:33:033 - info: [debug] [AndroidDriver] Screen is locked, trying to unlock
+2018-07-03 09:03:33:034 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:03:33:163 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:03:33:164 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","am","force-stop","io.appium.unlock"]
+2018-07-03 09:03:33:759 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:03:33:887 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:03:33:890 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","getprop","ro.build.version.sdk"]
+2018-07-03 09:03:34:060 - info: [debug] [ADB] Device API level: 22
+2018-07-03 09:03:34:062 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:03:34:209 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:03:34:210 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","am","start","-W","-n","io.appium.unlock/.Unlock","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2018-07-03 09:03:36:257 - info: [debug] [ADB] Device API level: 22
+2018-07-03 09:03:36:258 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:03:36:398 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:03:36:399 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","am","start","-W","-n","io.appium.unlock/.Unlock","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2018-07-03 09:03:56:404 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:03:56:655 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:03:56:655 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","dumpsys","window"]
+2018-07-03 09:03:56:852 - info: [debug] [AndroidDriver] Screen unlocked successfully
+2018-07-03 09:03:56:855 - info: [debug] [AndroidDriver] Extracting strings from apk E:\pyAppium\appiumPythonPO\app-localtest-release.apk null C:\Users\liuyj\AppData\Local\Temp\com.hospital.localtest
+2018-07-03 09:03:56:858 - info: [debug] [ADB] Extracting strings for language: default
+2018-07-03 09:03:56:859 - info: [debug] [ADB] Device API level: 22
+2018-07-03 09:03:56:861 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:03:57:002 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:03:57:003 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","getprop","persist.sys.language"]
+2018-07-03 09:03:57:155 - info: [debug] [ADB] Current device property 'persist.sys.language': zh
+2018-07-03 09:03:58:374 - info: [debug] [ADB] Reading strings from converted strings.json
+2018-07-03 09:03:58:376 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","push","C:\\Users\\liuyj\\AppData\\Local\\Temp\\com.hospital.localtest\\strings.json","/data/local/tmp"]
+2018-07-03 09:03:58:527 - info: [debug] [ADB] Checking app cert for E:\pyAppium\appiumPythonPO\app-localtest-release.apk.
+2018-07-03 09:03:59:659 - info: [debug] [ADB] App already signed.
+2018-07-03 09:03:59:660 - info: [debug] [ADB] Zip-aligning 'E:\pyAppium\appiumPythonPO\app-localtest-release.apk'
+2018-07-03 09:03:59:660 - info: [ADB] Checking whether zipalign is present
+2018-07-03 09:03:59:662 - info: [ADB] Using zipalign.exe from E:\android-sdk-windows\tools\zipalign.exe
+2018-07-03 09:03:59:664 - info: [debug] [ADB] Zip-aligning apk.
+2018-07-03 09:04:00:097 - info: [AndroidDriver] Remote apk path is /data/local/tmp/e1295407cafb0bbdfd5f893aad69acaa.apk
+2018-07-03 09:04:00:099 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:04:00:258 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:04:00:264 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","ls","/data/local/tmp/e1295407cafb0bbdfd5f893aad69acaa.apk"]
+2018-07-03 09:04:00:407 - info: [debug] [AndroidDriver] Checking if app is installed
+2018-07-03 09:04:00:408 - info: [debug] [ADB] Getting install status for com.hospital.localtest
+2018-07-03 09:04:00:408 - info: [debug] [ADB] Device API level: 22
+2018-07-03 09:04:00:409 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:04:00:550 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:04:00:551 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","pm","list","packages","-3","com.hospital.localtest"]
+2018-07-03 09:04:00:965 - info: [debug] [ADB] App is  installed
+2018-07-03 09:04:00:969 - info: [ADB] Checking whether aapt is present
+2018-07-03 09:04:00:973 - info: [ADB] Using aapt.exe from E:\android-sdk-windows\build-tools\android-4.3\aapt.exe
+2018-07-03 09:04:01:133 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server
+2018-07-03 09:04:01:135 - info: [debug] [ADB] Device API level: 22
+2018-07-03 09:04:01:136 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:04:01:268 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:04:01:268 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","pm","list","packages","-3","io.appium.uiautomator2.server"]
+2018-07-03 09:04:01:632 - info: [debug] [ADB] App is  installed
+2018-07-03 09:04:01:632 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+2018-07-03 09:04:01:633 - info: [debug] [ADB] Device API level: 22
+2018-07-03 09:04:01:633 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:04:01:772 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:04:01:773 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","pm","list","packages","-3","io.appium.uiautomator2.server.test"]
+2018-07-03 09:04:02:171 - info: [debug] [ADB] App is  installed
+2018-07-03 09:04:02:172 - info: [ADB] Checking whether aapt is present
+2018-07-03 09:04:02:173 - info: [ADB] Using aapt.exe from E:\android-sdk-windows\build-tools\android-4.3\aapt.exe
+2018-07-03 09:04:02:289 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:04:02:416 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:04:02:417 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","dumpsys","package","io.appium.uiautomator2.server"]
+2018-07-03 09:04:02:599 - info: [debug] [ADB] Attempting to kill all io.appium.uiautomator2.server processes
+2018-07-03 09:04:02:599 - info: [debug] [ADB] Getting all processes with io.appium.uiautomator2.server
+2018-07-03 09:04:02:600 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:04:02:738 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:04:02:738 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","ps"]
+2018-07-03 09:04:02:928 - info: [ADB] No io.appium.uiautomator2.server process found to kill, continuing...
+2018-07-03 09:04:02:928 - info: [UiAutomator2] Starting uiautomator2 server v0.0.6 with cmd: am,instrument,-w,io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner
+2018-07-03 09:04:02:931 - info: [UiAutomator2] Waiting for UiAutomator2 to be online...
+2018-07-03 09:04:02:932 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2018-07-03 09:04:02:951 - info: [UiAutomator2] running command...
+ adb shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner... 
+2018-07-03 09:04:03:952 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2018-07-03 09:04:04:971 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2018-07-03 09:04:05:977 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2018-07-03 09:04:06:045 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+2018-07-03 09:04:06:050 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"unicodeKeyboard":true,"platforVersion":"6.0.1","deviceName":"A3P40FEE3074","automationName":"UiAutomator2","appWaitActivity":"hospital.com.mainlib.login.LoginActivity","noReset":true,"resetKeyboard":true,"appPackage":"com.hospital.localtest","platformName":"Android","app":"E:\\pyAppium\\appiumPythonPO\\app-localtest-release.apk","udid":"A3P40FEE3074"},"unicodeKeyboard":true,"platforVersion":"6.0.1","deviceName":"A3P40FEE3074","automationName":"UiAutomator2","appWaitActivity":"hospital.com.mainlib.login.LoginActivity","noReset":true,"resetKeyboard":true,"appPackage":"com.hospital.localtest","platformName":"Android","app":"E:\\pyAppium\\appiumPythonPO\\app-localtest-release.apk","udid":"A3P40FEE3074","deviceUDID":"A3P40FEE3074","platformVersion":"5.1"}}
+2018-07-03 09:04:06:076 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"3e987f5b-f2b2-49b5-a6c7-df8066b9ec31","status":0,"value":"Created Session"}
+2018-07-03 09:04:06:077 - info: [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.hospital.localtest/hospital.com.mainlib.login.LoginActivity'. Starting it ourselves
+2018-07-03 09:04:06:077 - info: [debug] [ADB] Device API level: 22
+2018-07-03 09:04:06:077 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:04:06:197 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:04:06:198 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","am","start","-W","-n","com.hospital.localtest/hospital.com.mainlib.welcome.WelcomeActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2018-07-03 09:04:08:072 - info: [debug] [ADB] Waiting for pkg: 'com.hospital.localtest' and activity: 'hospital.com.mainlib.login.LoginActivity' to be focused
+2018-07-03 09:04:08:073 - info: [debug] [ADB] Possible activities, to be checked: hospital.com.mainlib.login.LoginActivity, .hospital.com.mainlib.login.LoginActivity
+2018-07-03 09:04:08:076 - info: [debug] [ADB] Getting focused package and activity
+2018-07-03 09:04:08:077 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:04:08:219 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:04:08:220 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","dumpsys","window","windows"]
+2018-07-03 09:04:08:374 - info: [debug] [ADB] Found package: 'com.hospital.localtest' and activity: 'hospital.com.mainlib.welcome.WelcomeActivity'
+2018-07-03 09:04:08:374 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-07-03 09:04:09:126 - info: [debug] [ADB] Getting focused package and activity
+2018-07-03 09:04:09:126 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:04:09:277 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:04:09:278 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","dumpsys","window","windows"]
+2018-07-03 09:04:09:449 - info: [debug] [ADB] Found package: 'com.hospital.localtest' and activity: 'hospital.com.mainlib.welcome.WelcomeActivity'
+2018-07-03 09:04:09:450 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-07-03 09:04:10:206 - info: [debug] [ADB] Getting focused package and activity
+2018-07-03 09:04:10:206 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:04:10:335 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:04:10:336 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","dumpsys","window","windows"]
+2018-07-03 09:04:10:549 - info: [debug] [ADB] Found package: 'com.hospital.localtest' and activity: 'hospital.com.mainlib.berth.BerthActivity'
+2018-07-03 09:04:10:550 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-07-03 09:04:11:302 - info: [debug] [ADB] Getting focused package and activity
+2018-07-03 09:04:11:302 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:04:11:441 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:04:11:442 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","dumpsys","window","windows"]
+2018-07-03 09:04:11:630 - info: [debug] [ADB] Found package: 'com.hospital.localtest' and activity: 'hospital.com.mainlib.login.LoginActivity'
+2018-07-03 09:04:11:632 - info: [Appium] New AndroidUiautomator2Driver session created successfully, session 70aec609-4f5b-464a-b1de-0d5686300502 added to master session list
+2018-07-03 09:04:11:635 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"unicodeKeyboard":"True","platforVersion":"6.0.1","deviceName":"A3P40FEE3074","automationName":"UiAutomator2","appWaitActivity":"hospital.com.mainlib.login.LoginActivity","noReset":"true","resetKeyboard":"True","appPackage":"com.hospital.localtest","platformName":"Android","app":"E:\\pyAppium\\appiumPythonPO\\app-localtest-release.apk","udid":"A3P40FEE3074"}
+2018-07-03 09:04:11:647 - info: [HTTP] <-- POST /wd/hub/session 200 50034 ms - 433 
+2018-07-03 09:04:26:696 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"id","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":"com.hospital.localtest:id/mLoginName"}
+2018-07-03 09:04:26:702 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.hospital.localtest:id/mLoginName","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:26:705 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:26:707 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:26:708 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:26:717 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"id","selector":"com.hospital.localtest:id/mLoginName","context":"","multiple":false}
+2018-07-03 09:04:26:778 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"3e987f5b-f2b2-49b5-a6c7-df8066b9ec31","status":0,"value":{"ELEMENT":"df24e6c7-5ac8-4404-8392-a97adbd2f85f"}}
+2018-07-03 09:04:26:781 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"df24e6c7-5ac8-4404-8392-a97adbd2f85f"}
+2018-07-03 09:04:26:785 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 200 88 ms - 122 
+2018-07-03 09:04:26:797 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element/df24e6c7-5ac8-4404-8392-a97adbd2f85f/value {"sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","id":"df24e6c7-5ac8-4404-8392-a97adbd2f85f","value":["1","3","0","5","1","8","5","2","4","0","0"]}
+2018-07-03 09:04:26:799 - info: [debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["1","3","0","5","1","8","5","2","4","0","0"],"df24e6c7-5ac8-4404-8392-a97adbd2f85f","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:26:803 - info: [debug] [JSONWP Proxy] Proxying [POST /element/df24e6c7-5ac8-4404-8392-a97adbd2f85f/value] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element/df24e6c7-5ac8-4404-8392-a97adbd2f85f/value] with body: {"elementId":"df24e6c7-5ac8-4404-8392-a97adbd2f85f","text":"13051852400","replace":false,"unicodeKeyboard":true}
+2018-07-03 09:04:27:385 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"3e987f5b-f2b2-49b5-a6c7-df8066b9ec31","status":0,"value":""}
+2018-07-03 09:04:27:385 - info: [debug] [MJSONWP] Responding to client with driver.setValue() result: ""
+2018-07-03 09:04:27:386 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element/df24e6c7-5ac8-4404-8392-a97adbd2f85f/value 200 589 ms - 74 
+2018-07-03 09:04:27:389 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"id","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":"com.hospital.localtest:id/mPassword"}
+2018-07-03 09:04:27:390 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.hospital.localtest:id/mPassword","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:27:391 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:27:391 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:27:392 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:27:392 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"id","selector":"com.hospital.localtest:id/mPassword","context":"","multiple":false}
+2018-07-03 09:04:28:275 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"3e987f5b-f2b2-49b5-a6c7-df8066b9ec31","status":0,"value":{"ELEMENT":"14f84e8b-bbd2-4b58-9c16-142a0f56b294"}}
+2018-07-03 09:04:28:277 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"14f84e8b-bbd2-4b58-9c16-142a0f56b294"}
+2018-07-03 09:04:28:279 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 200 889 ms - 122 
+2018-07-03 09:04:28:282 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element/14f84e8b-bbd2-4b58-9c16-142a0f56b294/value {"sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","id":"14f84e8b-bbd2-4b58-9c16-142a0f56b294","value":["1","2","3","4","5","6"]}
+2018-07-03 09:04:28:282 - info: [debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["1","2","3","4","5","6"],"14f84e8b-bbd2-4b58-9c16-142a0f56b294","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:28:283 - info: [debug] [JSONWP Proxy] Proxying [POST /element/14f84e8b-bbd2-4b58-9c16-142a0f56b294/value] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element/14f84e8b-bbd2-4b58-9c16-142a0f56b294/value] with body: {"elementId":"14f84e8b-bbd2-4b58-9c16-142a0f56b294","text":"123456","replace":false,"unicodeKeyboard":true}
+2018-07-03 09:04:28:825 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"3e987f5b-f2b2-49b5-a6c7-df8066b9ec31","status":0,"value":""}
+2018-07-03 09:04:28:827 - info: [debug] [MJSONWP] Responding to client with driver.setValue() result: ""
+2018-07-03 09:04:28:831 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element/14f84e8b-bbd2-4b58-9c16-142a0f56b294/value 200 548 ms - 74 
+2018-07-03 09:04:28:843 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"id","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":"com.hospital.localtest:id/mLogin"}
+2018-07-03 09:04:28:844 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.hospital.localtest:id/mLogin","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:28:845 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:28:846 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:28:847 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:28:848 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"id","selector":"com.hospital.localtest:id/mLogin","context":"","multiple":false}
+2018-07-03 09:04:29:343 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"3e987f5b-f2b2-49b5-a6c7-df8066b9ec31","status":0,"value":{"ELEMENT":"d38c1210-1462-411e-9ded-7ab4038060bc"}}
+2018-07-03 09:04:29:346 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"d38c1210-1462-411e-9ded-7ab4038060bc"}
+2018-07-03 09:04:29:348 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 200 504 ms - 122 
+2018-07-03 09:04:29:359 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element/d38c1210-1462-411e-9ded-7ab4038060bc/click {"sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","id":"d38c1210-1462-411e-9ded-7ab4038060bc"}
+2018-07-03 09:04:29:359 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["d38c1210-1462-411e-9ded-7ab4038060bc","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:29:360 - info: [debug] [JSONWP Proxy] Proxying [POST /element/d38c1210-1462-411e-9ded-7ab4038060bc/click] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element/d38c1210-1462-411e-9ded-7ab4038060bc/click] with body: {"elementId":"d38c1210-1462-411e-9ded-7ab4038060bc"}
+2018-07-03 09:04:29:422 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"3e987f5b-f2b2-49b5-a6c7-df8066b9ec31","status":0,"value":true}
+2018-07-03 09:04:29:424 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-07-03 09:04:29:428 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element/d38c1210-1462-411e-9ded-7ab4038060bc/click 200 68 ms - 76 
+2018-07-03 09:04:29:442 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:29:445 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:29:447 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:29:448 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:29:448 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:29:448 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:30:130 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 687 ms - 164 
+2018-07-03 09:04:30:244 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:30:245 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:30:247 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:30:248 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:30:249 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:30:250 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:30:319 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 78 ms - 164 
+2018-07-03 09:04:30:422 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:30:422 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:30:422 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:30:422 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:30:423 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:30:423 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:30:478 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 55 ms - 164 
+2018-07-03 09:04:30:588 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:30:589 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:30:590 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:30:591 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:30:591 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:30:593 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:30:646 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 58 ms - 164 
+2018-07-03 09:04:30:749 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:30:749 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:30:750 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:30:751 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:30:751 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:30:751 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:30:836 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 86 ms - 164 
+2018-07-03 09:04:30:947 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:30:948 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:30:949 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:30:952 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:30:953 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:30:954 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:31:332 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 383 ms - 164 
+2018-07-03 09:04:31:440 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:31:441 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:31:442 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:31:443 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:31:443 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:31:444 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:31:518 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 77 ms - 164 
+2018-07-03 09:04:31:628 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:31:631 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:31:632 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:31:632 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:31:633 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:31:633 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:31:682 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 53 ms - 164 
+2018-07-03 09:04:31:793 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:31:795 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:31:796 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:31:797 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:31:797 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:31:799 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:31:838 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 45 ms - 164 
+2018-07-03 09:04:31:955 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:31:957 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:31:958 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:31:959 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:31:959 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:31:961 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:31:993 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 38 ms - 164 
+2018-07-03 09:04:32:104 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:32:105 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:32:106 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:32:106 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:32:107 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:32:109 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:32:169 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 64 ms - 164 
+2018-07-03 09:04:32:279 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:32:280 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:32:281 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:32:282 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:32:283 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:32:284 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:32:341 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 62 ms - 164 
+2018-07-03 09:04:32:444 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:32:445 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:32:445 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:32:445 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:32:445 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:32:446 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:32:503 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 56 ms - 164 
+2018-07-03 09:04:32:614 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:32:615 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:32:616 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:32:617 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:32:617 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:32:618 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:32:696 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 81 ms - 164 
+2018-07-03 09:04:32:807 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:32:808 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:32:809 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:32:810 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:32:810 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:32:811 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:32:864 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 57 ms - 164 
+2018-07-03 09:04:32:977 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:32:978 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:32:979 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:32:980 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:32:981 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:32:983 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:33:043 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 66 ms - 164 
+2018-07-03 09:04:33:147 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:33:147 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:33:147 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:33:147 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:33:148 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:33:148 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:33:198 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 51 ms - 164 
+2018-07-03 09:04:33:306 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:33:307 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:33:308 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:33:308 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:33:309 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:33:310 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:33:378 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 72 ms - 164 
+2018-07-03 09:04:33:485 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:33:486 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:33:487 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:33:487 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:33:488 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:33:489 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:33:551 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 66 ms - 164 
+2018-07-03 09:04:33:665 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:33:669 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:33:670 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:33:670 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:33:671 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:33:678 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:33:743 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 80 ms - 164 
+2018-07-03 09:04:33:853 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:33:854 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:33:855 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:33:856 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:33:856 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:33:857 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:33:914 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 61 ms - 164 
+2018-07-03 09:04:34:016 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:34:016 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:34:017 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:34:017 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:34:017 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:34:017 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:34:086 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 68 ms - 164 
+2018-07-03 09:04:34:190 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:34:191 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:34:191 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:34:191 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:34:191 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:34:191 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:34:257 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 67 ms - 164 
+2018-07-03 09:04:34:361 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:34:361 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:34:361 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:34:362 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:34:362 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:34:362 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:34:413 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 52 ms - 164 
+2018-07-03 09:04:34:521 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:34:521 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:34:521 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:34:522 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:34:522 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:34:522 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:34:593 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 71 ms - 164 
+2018-07-03 09:04:34:700 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:34:700 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:34:700 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:34:700 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:34:700 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:34:701 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:34:769 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 68 ms - 164 
+2018-07-03 09:04:34:880 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:34:881 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:34:882 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:34:882 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:34:883 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:34:887 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:34:955 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 74 ms - 164 
+2018-07-03 09:04:35:066 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:35:067 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:35:068 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:35:069 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:35:069 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:35:071 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:35:130 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 63 ms - 164 
+2018-07-03 09:04:35:234 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:35:234 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:35:234 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:35:235 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:35:235 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:35:235 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:35:300 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 65 ms - 164 
+2018-07-03 09:04:35:404 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:35:404 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:35:404 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:35:404 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:35:405 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:35:405 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:35:463 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 59 ms - 164 
+2018-07-03 09:04:35:566 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:35:567 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:35:567 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:35:567 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:35:567 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:35:570 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:35:643 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 75 ms - 164 
+2018-07-03 09:04:35:759 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:35:760 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:35:761 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:35:762 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:35:762 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:35:763 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:35:825 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 65 ms - 164 
+2018-07-03 09:04:35:934 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:35:934 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:35:935 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:35:936 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:35:938 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:35:939 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:35:996 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 62 ms - 164 
+2018-07-03 09:04:36:106 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:36:108 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:36:109 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:36:109 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:36:109 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:36:110 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:36:172 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 65 ms - 164 
+2018-07-03 09:04:36:283 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:36:287 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:36:288 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:36:288 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:36:289 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:36:290 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:36:356 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 72 ms - 164 
+2018-07-03 09:04:36:468 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:36:469 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:36:470 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:36:470 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:36:471 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:36:472 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:36:535 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 65 ms - 164 
+2018-07-03 09:04:36:647 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:36:648 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:36:650 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:36:650 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:36:651 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:36:652 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:36:710 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 62 ms - 164 
+2018-07-03 09:04:36:823 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:36:824 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:36:825 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:36:825 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:36:826 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:36:827 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:36:853 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 31 ms - 164 
+2018-07-03 09:04:36:964 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:36:966 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:36:969 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:36:970 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:36:970 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:36:977 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:37:037 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 72 ms - 164 
+2018-07-03 09:04:37:149 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:37:151 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:37:152 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:37:152 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:37:153 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:37:154 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:37:227 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 76 ms - 164 
+2018-07-03 09:04:37:339 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:37:340 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:37:342 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:37:342 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:37:343 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:37:344 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:37:411 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 71 ms - 164 
+2018-07-03 09:04:37:524 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:37:525 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:37:527 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:37:527 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:37:528 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:37:529 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:37:599 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 74 ms - 164 
+2018-07-03 09:04:37:710 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:37:711 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:37:713 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:37:713 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:37:714 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:37:715 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:37:782 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 71 ms - 164 
+2018-07-03 09:04:37:892 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:37:894 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:37:895 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:37:896 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:37:896 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:37:897 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:37:940 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 47 ms - 164 
+2018-07-03 09:04:38:050 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:38:052 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:38:053 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:38:054 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:38:054 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:38:055 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:38:092 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 41 ms - 164 
+2018-07-03 09:04:38:196 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:38:197 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:38:197 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:38:197 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:38:197 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:38:198 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:38:238 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 41 ms - 164 
+2018-07-03 09:04:38:348 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:38:350 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:38:351 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:38:352 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:38:352 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:38:354 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:38:423 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 73 ms - 164 
+2018-07-03 09:04:38:535 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:38:538 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:38:539 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:38:539 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:38:542 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:38:543 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:38:608 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 72 ms - 164 
+2018-07-03 09:04:38:719 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:38:720 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:38:721 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:38:721 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:38:721 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:38:722 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:38:797 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 77 ms - 164 
+2018-07-03 09:04:38:907 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"xpath","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":".//*[contains(@text,'该账号不存在')]"}
+2018-07-03 09:04:38:908 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath",".//*[contains(@text,'该账号不存在')]","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:38:909 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:38:910 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:38:910 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:38:911 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"xpath","selector":".//*[contains(@text,'该账号不存在')]","context":"","multiple":false}
+2018-07-03 09:04:39:329 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 500 422 ms - 164 
+2018-07-03 09:04:40:442 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"id","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":"com.hospital.localtest:id/mLoginName"}
+2018-07-03 09:04:40:443 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.hospital.localtest:id/mLoginName","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:40:444 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:40:445 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:40:446 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:40:449 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"id","selector":"com.hospital.localtest:id/mLoginName","context":"","multiple":false}
+2018-07-03 09:04:40:522 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"3e987f5b-f2b2-49b5-a6c7-df8066b9ec31","status":0,"value":{"ELEMENT":"0ca244eb-bd31-4b52-9a10-7ab133c204c4"}}
+2018-07-03 09:04:40:524 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"0ca244eb-bd31-4b52-9a10-7ab133c204c4"}
+2018-07-03 09:04:40:526 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 200 83 ms - 122 
+2018-07-03 09:04:40:538 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element/0ca244eb-bd31-4b52-9a10-7ab133c204c4/value {"sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","id":"0ca244eb-bd31-4b52-9a10-7ab133c204c4","value":["1","3","0","5","1","8","5","2","4","8","8"]}
+2018-07-03 09:04:40:539 - info: [debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["1","3","0","5","1","8","5","2","4","8","8"],"0ca244eb-bd31-4b52-9a10-7ab133c204c4","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:40:541 - info: [debug] [JSONWP Proxy] Proxying [POST /element/0ca244eb-bd31-4b52-9a10-7ab133c204c4/value] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element/0ca244eb-bd31-4b52-9a10-7ab133c204c4/value] with body: {"elementId":"0ca244eb-bd31-4b52-9a10-7ab133c204c4","text":"13051852488","replace":false,"unicodeKeyboard":true}
+2018-07-03 09:04:41:102 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"3e987f5b-f2b2-49b5-a6c7-df8066b9ec31","status":0,"value":""}
+2018-07-03 09:04:41:103 - info: [debug] [MJSONWP] Responding to client with driver.setValue() result: ""
+2018-07-03 09:04:41:105 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element/0ca244eb-bd31-4b52-9a10-7ab133c204c4/value 200 567 ms - 74 
+2018-07-03 09:04:41:118 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"id","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":"com.hospital.localtest:id/mPassword"}
+2018-07-03 09:04:41:119 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.hospital.localtest:id/mPassword","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:41:120 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:41:121 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:41:121 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:41:122 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"id","selector":"com.hospital.localtest:id/mPassword","context":"","multiple":false}
+2018-07-03 09:04:41:617 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"3e987f5b-f2b2-49b5-a6c7-df8066b9ec31","status":0,"value":{"ELEMENT":"083009e9-6c25-4a97-8bf1-a64e8383be8d"}}
+2018-07-03 09:04:41:617 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"083009e9-6c25-4a97-8bf1-a64e8383be8d"}
+2018-07-03 09:04:41:618 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 200 500 ms - 122 
+2018-07-03 09:04:41:621 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element/083009e9-6c25-4a97-8bf1-a64e8383be8d/value {"sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","id":"083009e9-6c25-4a97-8bf1-a64e8383be8d","value":["1","2","3","4","5","6"]}
+2018-07-03 09:04:41:622 - info: [debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["1","2","3","4","5","6"],"083009e9-6c25-4a97-8bf1-a64e8383be8d","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:41:622 - info: [debug] [JSONWP Proxy] Proxying [POST /element/083009e9-6c25-4a97-8bf1-a64e8383be8d/value] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element/083009e9-6c25-4a97-8bf1-a64e8383be8d/value] with body: {"elementId":"083009e9-6c25-4a97-8bf1-a64e8383be8d","text":"123456","replace":false,"unicodeKeyboard":true}
+2018-07-03 09:04:42:165 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"3e987f5b-f2b2-49b5-a6c7-df8066b9ec31","status":0,"value":""}
+2018-07-03 09:04:42:167 - info: [debug] [MJSONWP] Responding to client with driver.setValue() result: ""
+2018-07-03 09:04:42:170 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element/083009e9-6c25-4a97-8bf1-a64e8383be8d/value 200 546 ms - 74 
+2018-07-03 09:04:42:200 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element {"using":"id","sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","value":"com.hospital.localtest:id/mLogin"}
+2018-07-03 09:04:42:200 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.hospital.localtest:id/mLogin","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:42:201 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:42:201 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-07-03 09:04:42:202 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-07-03 09:04:42:202 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element] with body: {"strategy":"id","selector":"com.hospital.localtest:id/mLogin","context":"","multiple":false}
+2018-07-03 09:04:42:685 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"3e987f5b-f2b2-49b5-a6c7-df8066b9ec31","status":0,"value":{"ELEMENT":"d258c532-0932-41d4-891d-9ec2ce4a2f76"}}
+2018-07-03 09:04:42:687 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"d258c532-0932-41d4-891d-9ec2ce4a2f76"}
+2018-07-03 09:04:42:690 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element 200 488 ms - 122 
+2018-07-03 09:04:42:704 - info: [HTTP] --> POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element/d258c532-0932-41d4-891d-9ec2ce4a2f76/click {"sessionId":"70aec609-4f5b-464a-b1de-0d5686300502","id":"d258c532-0932-41d4-891d-9ec2ce4a2f76"}
+2018-07-03 09:04:42:706 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["d258c532-0932-41d4-891d-9ec2ce4a2f76","70aec609-4f5b-464a-b1de-0d5686300502"]
+2018-07-03 09:04:42:707 - info: [debug] [JSONWP Proxy] Proxying [POST /element/d258c532-0932-41d4-891d-9ec2ce4a2f76/click] to [POST http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31/element/d258c532-0932-41d4-891d-9ec2ce4a2f76/click] with body: {"elementId":"d258c532-0932-41d4-891d-9ec2ce4a2f76"}
+2018-07-03 09:04:42:728 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"3e987f5b-f2b2-49b5-a6c7-df8066b9ec31","status":0,"value":true}
+2018-07-03 09:04:42:729 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-07-03 09:04:42:730 - info: [HTTP] <-- POST /wd/hub/session/70aec609-4f5b-464a-b1de-0d5686300502/element/d258c532-0932-41d4-891d-9ec2ce4a2f76/click 200 25 ms - 76 
+2018-07-03 09:05:42:732 - warn: [BaseDriver] Shutting down because we waited 60 seconds for a command
+2018-07-03 09:05:42:736 - info: [debug] [UiAutomator2] Deleting UiAutomator2 session
+2018-07-03 09:05:42:739 - warn: [Appium] Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+2018-07-03 09:05:42:739 - info: [Appium] Removing session 70aec609-4f5b-464a-b1de-0d5686300502 from our master session list
+2018-07-03 09:05:42:741 - info: [debug] [UiAutomator2] Deleting UiAutomator2 server session
+2018-07-03 09:05:42:742 - info: [debug] [JSONWP Proxy] Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/3e987f5b-f2b2-49b5-a6c7-df8066b9ec31] with no body
+2018-07-03 09:05:42:782 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"3e987f5b-f2b2-49b5-a6c7-df8066b9ec31\",\"status\":0,\"value\":\"Session deleted\"}"
+2018-07-03 09:05:42:784 - info: [debug] [ADB] Getting connected devices...
+2018-07-03 09:05:43:030 - info: [debug] [ADB] 1 device(s) connected
+2018-07-03 09:05:43:032 - info: [debug] [ADB] Running 'E:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","A3P40FEE3074","shell","am","force-stop","com.hospital.localtest"]
+2018-07-03 09:05:43:767 - info: [debug] [Logcat] Stopping logcat capture

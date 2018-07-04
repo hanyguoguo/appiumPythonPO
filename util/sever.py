@@ -51,8 +51,8 @@ class Server:
         ap_list = self.create_ports(4700)
         bp_list = self.create_ports(4900)
         device_list = self.device_list
-        command = "appium -p "+str(ap_list[i])+" -bp "+str(bp_list[i])+" -U "+device_list[i]+" --no-reset --session-override"
-        #--log E:/pyAppium/appiumPythonPO/log/test.log"
+        command = "appium -p "+str(ap_list[i])+" -bp "+str(bp_list[i])+" -U "+device_list[i]+" --no-reset --session-override " \
+                                                                                             "--log E:/pyAppium/appiumPythonPO/log/test_"+str(i)+".log"
         print u"生成第"+str(i)+u"个命令"+command
         command_list.append(command)
         print u"开始写入第"+str(i)+u"个命令"

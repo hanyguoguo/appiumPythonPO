@@ -49,15 +49,20 @@ class LoginPage:
         获取tostelement
         '''
         time.sleep(2)
-        print "get toast........"
-        tost_element = ("xpath", "//*[contains(@text," + message + ")]")
-        print WebDriverWait(self.driver, 10, 0.1).until(EC.presence_of_element_located(tost_element))
+        tost_element = ("xpath", ".//*[contains(@text,'%s')]" % message)
         return WebDriverWait(self.driver, 10, 0.1).until(EC.presence_of_element_located(tost_element))
 
+    def find_toast(self,message):
+         try:
+            toast_loc = ("xpath", ".//*[contains(@text,'%s')]" % message)
+            WebDriverWait(self.driver, 10, 0.1).until(EC.presence_of_element_located(toast_loc))
+            return True
+         except:
+            return False
 
-if __name__=="__main__":
+if __name__ == "__main__":
     lp = LoginPage(0)
     lp.get_username_element().send_keys("13051852488")
-    lp.get_password_element().send_keys("123123")
+    # lp.get_password_element().send_keys("")
     lp.get_login_button_element().click()
-    lp.get_tost_element(u'用户与密码不符')
+    print lp.find_toast('请输入6-8位密码')
