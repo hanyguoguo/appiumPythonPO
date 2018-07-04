@@ -2,11 +2,7 @@ appium+python+PO 自动化测试框架
 ====
 1.项目概述
 -------
-使用目前较为流行的UI自动化测试工具Appium，
-语言选择python2，利用ddt进行数据驱动，
-yaml管理项目的定位，
-unittest进行组织测试用例，测试设备真机,
-测试报告使用HTMLTestRunner进行测试用例完成后测试报告的生成。
+python2.7编写，使用目前较为流行的UI自动化测试工具Appium，采用PO设计模型，按照page层、handle层、business层和case层组织框架，使用unittest组织测试用例，HTMLTestRunner生成测试报告，测试过程中错误截图，并生成日志文件。init文件管理元素定位，yaml组织管理appium启动命令，运用了多进程，可实现多台设备同时运行。
 ###
 2.目录简介
 -------
