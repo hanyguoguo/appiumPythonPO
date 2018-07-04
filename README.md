@@ -26,3 +26,16 @@ unittest进行组织测试用例，测试设备真机,
 -------
 整体结构
 ###
+![](https://github.com/hanyguoguo/appiumPythonPO/blob/master/img/tree.png)
+
+控制台展示
+###
+![](https://github.com/hanyguoguo/appiumPythonPO/blob/master/img/workbench.png)
+
+测试日志
+###
+![](https://github.com/hanyguoguo/appiumPythonPO/blob/master/img/testlog.png)
+
+测试报告
+###
+![](https://github.com/hanyguoguo/appiumPythonPO/blob/master/img/testreport.png)
